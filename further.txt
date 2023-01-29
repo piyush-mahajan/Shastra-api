@@ -1,0 +1,8 @@
+docker build -t shaastra-api .
+
+docker image ls
+
+docker run shaastra-api
+
+
+docker run -p 3000:3000 shaastra-api
